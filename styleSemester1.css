@@ -1,0 +1,222 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: 'Comic Sans MS', cursive, sans-serif;*/
+}
+
+.heading h3, h4{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0 0 10px;
+}
+.heading{
+    background-color: #D0D0D0;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 8px;
+}
+
+.contact    {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px;
+}
+.contact > h3{
+    flex-grow: 1;
+    text-align: center;
+
+}
+.image {
+    padding: 4px 5px 0 5px;
+}
+.image > img{
+    height: 5vh;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.logo1 > img{
+    height: 8vh;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.menu{
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.menu__inner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.logo > img{
+    height: 8vh;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    min-height: 80vh;
+}
+
+.vertical-nav {
+    /*padding: 1vh 2vw;
+    width: 20vw;
+    height: auto;*/
+    border-right: 2px solid black;
+
+}
+
+/*.main-content {
+    width: 80vw;
+    padding: 1vh 2vw;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+}*/
+
+.spisok{
+    /*font-size: 20px;*/
+    /*font-weight: 700;*/
+    list-style: none;
+}
+.spisok li:first-child{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.spisok li{
+    padding-bottom: 10px;
+}
+.spisok li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    /*display: block;*/
+    position: relative;
+    /*border: 10px solid transparent;*/
+    /*padding: 0px 87px 10px 20px;*/
+}
+
+.Slections{
+    padding: 0px 123px 10px 0px;
+}
+.Spractice{
+    padding: 0px 105px 10px 0px;
+}
+.Smap{
+    padding: 0px 95px 10px 0px;
+}
+.SrabProgram{
+    padding: 0px 22px 10px 0px;
+}
+
+.welcome{
+    margin: 10px 0;
+}
+.welcome >h2{
+    margin: 30px 0;
+}
+footer{
+    background-color: #D0D0D0;
+}
+#lekcii {
+    table-layout: fixed;
+    width: 70%;
+    height: 60%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.theader {
+    font-weight: bold;
+    background-color: #D0D0D0;
+    font-size: 18px;
+}
+/*thead th:nth-child(1) {
+    width: 10%;
+}
+
+thead th:nth-child(2) {
+    width: 50%;
+}
+
+thead th:nth-child(3) {
+    width: auto;
+}
+thead th:nth-child(4) {
+    width: 15%;
+}*/
+th, td {
+    text-align: left;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#prac {
+    table-layout: fixed;
+    width: 90%;
+    height: 60%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+.program > object{
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+}
+@media (max-width: 576px){
+    .map{
+        width: auto;
+
+    }
+}
+@media (max-width: 576px){
+    .lekcii th, td{
+        width: auto;
+    }
+}
+@media (max-width: 576px){
+    .prac th, td{
+        width: auto;
+    }
+}
+/*main ::before {
+    content: '';
+    position: absolute; !* Фиксируем на одном месте *!
+    left: auto; right: auto; !* Вся ширин *!
+    top: auto; bottom: auto; !* Вся высота *!
+    z-index: -3; !* Фон ниже текста *!
+    !* Параметры фона *!
+    background: url(img/abstract-white-gray-orange-gradient-dynamic-fluid-shapes-background_1120554-43958.jpg) center / cover no-repeat;
+    filter: blur(5px); !* Размытие *!
+}*/
+td input[type="checkbox"] {
+    display: flex;
+    margin-left: 45%;
+}
+td:hover{
+    background-color: #ffc744;
+}
+

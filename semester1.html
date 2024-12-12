@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styleSemester1.css" rel="stylesheet">
+    <link rel="icon" href="img/055e84ce980832928d423484db686903.jpg">
+    <title>ПЕРВЫЙ СЕМЕСТР</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    /* Стиль для переноса текста на новую строку в случае переполнения */
+    .table td, .table th {
+      word-wrap: break-word;
+      white-space: normal;
+    }
+  </style>
+ <!-- <script src="script12.js" defer> </script>-->
+</head>
+<body class="container-fluid">
+<header>
+  <div class="heading">
+    <div class="logo">
+      <img src="img/055e84ce980832928d423484db686903.jpg" alt="">
+    </div>
+    <div class="info">
+      <h3>ЭФБО-03-23</h3>
+      <h3>Тяжельникова Мария</h3>
+    </div>
+  </div>
+</header>
+<!--<div class="menu">
+  <div class="container">
+    <div class="menu__inner">
+      <ul class="nav">
+        <li><a href="main.html">Главная</a></li>
+        <li><a href="semester1.html">Первый семестр</a></li>
+        <li><a href="semester2.html">Второй семестр</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="authorization.html">Авторизация</a></li>
+      </ul>
+    </div>
+  </div>
+</div>-->
+<nav class="navbar navbar-expand-lg bg-dark-subtle border border-top-0 border-2 border-black">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link fs-4 <!--btn btn-secondary-->" href="index.html">Главная</a>
+        </li>
+
+        <li class="nav-item dropdown fs-4 ">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+            Семестры
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item <!--btn btn-secondary-->" href="semester1.html">Первый семестр</a></li>
+            <li><a class="dropdown-item <!--btn btn-secondary-->" href="semester2.html">Второй семестр</a></li>
+
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4 <!--btn btn-secondary-->"  href="services.html " >Услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4 <!--btn btn-secondary-->" >Авторизация</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<main class="row px-3">
+  <nav class="d-none d-sm-block col-2 vertical-nav">
+    <ul class="spisok">
+      <li>Навигация по странице</li>
+      <li><a href="#lekcii1" class="Slections btn btn-secondary">Лекции</a></li>
+      <li><a href="#prac1" class="Spractice btn btn-secondary">Практики</a></li>
+      <li><a href="#map1" class="Smap btn btn-secondary">Адрес вуза</a></li>
+      <li><a href="#program1" class="SrabProgram btn btn-secondary">Рабочая программа</a></li>
+    </ul>
+  </nav>
+    <div class="col main-content">
+      <div class="welcome">
+        <h1>Первый семестр</h1>
+        <button type="button" class="btn btn-secondary" id="semester-btn">Посмотреть практики второго семестра</button>
+        <h2 id="lekcii1">Лекции</h2>
+      </div>
+    <div class="table-responsive table1" >
+      <table class="table table-bordered table-hover w-100"id="lekcii" >
+        <thead class="table-dark theader">
+          <tr>
+            <th scope="col-1">№</th>
+            <th scope="col-3 ">Тема</th>
+            <th scope="col-3 ">Посещение</th>
+          </tr>
+
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Основы языка HTML</td>
+          <td><input type="checkbox" checked></td></tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Углубленное изучение HTML</td>
+          <td><input type="checkbox"></td></tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Основы работы с CSS</td>
+          <td><input type="checkbox"></td></tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Адаптивная верстка. Flexbox и Grid Layout</td>
+          <td><input type="checkbox"></td></tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Bootstrap - работа с фреймворком</td>
+          <td><input type="checkbox"></td></tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Основы языка JavaScript</td>
+          <td><input type="checkbox"></td></tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Работа с DOM и событиями в JavaScript</td>
+          <td><input type="checkbox"></td></tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Введение в GitHub и GitHub Pages</td>
+          <td><input type="checkbox"></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="welcome">
+      <h2 id="prac1">Практики</h2>
+    </div>
+      <div class="table-responsive table2" >
+        <table class="table table-bordered table-hover w-100"id="prac">
+          <thead class="table-dark theader">
+          <tr>
+            <th scope="col-1">Номер</th>
+            <th scope="col-3">Тема</th>
+            <th scope="col-3">Посещение</th>
+            <th scope="col-3">Выполнение</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td scope="row">1</td>
+            <td>Основы языка HTML</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+          </tr>
+          <tr>
+            <td scope="row">2</td>
+            <td>Формы и кнопки в HTML</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">3</td>
+            <td>Таблицы и интерактивные элементы HTML</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">4</td>
+            <td>Основы работы с CSS</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">5</td>
+            <td>Работа с классами в CSS</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">6</td>
+            <td>Работа с сетками и разметкой в HTML</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">7</td>
+            <td>Адаптивная верстка</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">8</td>
+            <td>Bootstrap</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">9</td>
+            <td>Основы языка JavaScript</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">10</td>
+            <td>Базовые задачи на JS</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">11</td>
+            <td>DOM-структура приложений и работа с объектами в языке JS</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">12</td>
+            <td>Встраивание скриптов</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">13</td>
+            <td>Отладка сценариев</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">14</td>
+            <td>Анимации и работа с ними</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">15</td>
+            <td>Github</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td scope="row">16</td>
+            <td>Защита проекта</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <strong>Тема практики №1</strong>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Задания на практику №1
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>Тема практики №2</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Задания на практику №2
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <strong>Тема практики №3</strong>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Задания на практику №3
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 >Фотографии РТУ МИРЭА</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/1079895443_0_32_1200_707_1920x0_80_0_0_525a12b23819c5e59e22086de26125cd.jpg" class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/849443715359e7d79fd65bd2582f412c.png" class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/30f9fa59ac4c8b5e740ff9a5069c949c.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущая</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующая</span>
+        </button>
+      </div>
+      <div class="welcome">
+        <h2 id="map1">Занятия проходят по адресу: проспект Вернадского 78</h2>
+      </div>
+    <div class="row col-12 col-md-8 mx-auto map" id="map">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A748450515712fde8291bdc26e429b01f74373ab364053f6f638b047f1581b794&amp;source=constructor" width="900" height="400" frameborder="0"></iframe>
+    </div>
+      <div class="welcome">
+        <h2 id="program1">Рабочая программа</h2>
+      </div>
+      <div class="row col-12 col-md-8 mx-auto program " id="program">
+        <object data="pdf/ПР_2_HTML_Формы%20и%20кнопки%20(1).pdf"></object>
+      </div>
+    </div>
+</main>
+<footer>
+  <div class="contact">
+    <h3>	&#169;Тяжельникова Мария Алексеевна, 2024</h3>
+    <a class="image" href="https://t.me/th1stl3">
+      <img src="img/640px-Telegram_Messenger.png" alt="">
+    </a>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script13.2.js"></script>
+<script src="script14.2.js" defer></script>
+</body>
+</html>
